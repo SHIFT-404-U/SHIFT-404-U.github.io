@@ -1,0 +1,78 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #703e3e;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header, main, footer {
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  background-color: #4682B4;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Main content styling */
+.music-player {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.music-player h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #4682B4;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Interactive background */
+body {
+  background: linear-gradient(to right, #4682B4, #87CEFA);
+  background-size: 200% 100%;
+  animation: gradient 15s infinite alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
